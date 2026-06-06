@@ -1,14 +1,7 @@
 import requests
-import os
 import streamlit as st
-from dotenv import load_dotenv
 
-load_dotenv()
-
-API_KEY = st.secrets.get(
-    "NEWS_API_KEY",
-    os.getenv("NEWS_API_KEY")
-)
+API_KEY = st.secrets["NEWS_API_KEY"]
 
 def get_news(topic):
 
@@ -28,7 +21,9 @@ def get_news(topic):
     headlines = []
 
     if "articles" in data:
+
         for article in data["articles"]:
+
             title = article.get("title")
 
             if title:
