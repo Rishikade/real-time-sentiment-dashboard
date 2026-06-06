@@ -1,5 +1,7 @@
 # 📊 Real-Time Sentiment Dashboard
 
+#Live Deploy: https://real-time-sentiment-dashboard-rishika.streamlit.app/
+
 A real-time NLP dashboard built using Streamlit, Hugging Face Transformers, NewsAPI, SQLite, and Plotly.
 
 ## Features
