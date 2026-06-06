@@ -4,6 +4,16 @@
 
 A real-time NLP dashboard built using Streamlit, Hugging Face Transformers, NewsAPI, SQLite, and Plotly.
 
+## Dashboard Preview
+
+![Dashboard 1](img1.png)
+
+![Dashboard 2](img2.png)
+
+![Dashboard 3](img3.png)
+
+![Dashboard 4](img4.png)
+
 ## Features
 
 - Sentiment Analysis using Hugging Face Transformers
